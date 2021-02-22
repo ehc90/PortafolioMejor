@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
 .lateral {
 	background-color: #ffeaa7;
 	bottom: 0;
@@ -64,4 +68,41 @@
 	font-size: 20px;
 	text-transform: uppercase;
 	padding: .5em
+}
+
+.habilidad--proyecto {
+	background-color: #ff7675;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: .5em
+}
+
+/* Proyectos */
+
+.proyectos {
+	margin-left: 350px;
+	padding: 1em;
+
+	display: table;
+}
+
+.proyecto {
+	display: table-cell;
+	padding: 1em;
+	width: 50%
+}
+
+.proyecto__imagen {
+	width: 100%
+}
+
+.proyecto__titulo {
+	color: #ff7675;
+	font-size 18px;
+}
+
+.proyecto__descripcion {
+	color: #a29bfe;
 }
